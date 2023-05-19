@@ -14,7 +14,6 @@ public class FelineTest {
     @Spy
     private Feline feline;
 
-
     @Test
     public void testEatMeat() throws Exception {
         List<String> expected = List.of("Животные", "Птицы", "Рыба");
